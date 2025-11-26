@@ -1,0 +1,19 @@
+pip install pyinstaller
+
+pyinstaller --onefile --windowed talking_calculator.py
+
+pyinstaller --onefile --windowed --icon=your_icon.icoc talking_calculator.py
+
+
+pyinstaller --onefile --windowed talking_calculator.py
+
+talking_calculator.py
+
+import whisper
+
+model = whisper.load_model("small")
+result = model.transcribe("audio.mp3")
+
+print(result["text"])
+ 
+	
