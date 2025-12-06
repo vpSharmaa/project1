@@ -1,2 +1,4 @@
-# project1
-My first talking calculator, simple to use and very basic.
+# Talking Calculator
+
+## Requirements
+To install dependencies, run `pip install -r requirements.txt`
