@@ -1,26 +1,12 @@
-# project1
+# Talking Calculator
 
 My first talking calculator, simple to use and very basic.
 
-import time
+### App Information
+APP_NAME = "Talking Calculator"
+APP_VERSION = "2.0"
+APP_AUTHOR = "Dr. Vedprakash Sharma"
 
-import pyttsx3
-
-import math
-
-import os
-
-import platform
-
-
-
-APP\_NAME = "Talking Calculator"
-
-APP\_VERSION = "2.0"
-
-APP\_AUTHOR = "Dr. Vedprakash Sharma"
-
-
-
-\# Clear screen depending on OS
-
+### Requirements
+To install dependencies, run:
+pip install -r requirements.txt
